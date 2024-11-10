@@ -1,0 +1,29 @@
+.text-center {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.text-medium {
+    font-size: 1rem;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+.img-prof {
+    width: 100%;
+    max-width: 10.5rem;
+    height: auto;
+    border: 2px solid black;
+}
+
+@media (max-width: 576px) {
+    .img-prof {
+        max-width: 8rem;
+    }
+}
